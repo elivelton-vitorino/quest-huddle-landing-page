@@ -1,0 +1,123 @@
+html{
+    font-size: 62.2%;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    overflow: hidden;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    background: var(--Violet)url(../images/bg-desktop.svg) no-repeat center center;
+    justify-content: center;
+    background-size: cover;
+    padding: 2rem;
+    align-items: center;
+   
+   
+}
+.logo img{
+    width: 20rem;
+    height: 10rem;
+}
+
+
+.ilustration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100vh;
+    margin-left: 35rem;
+    margin-top: 12rem;
+
+
+}
+
+
+.logo{
+   display: flex;
+   position: absolute;
+   margin-right: 78rem;
+   top: 8rem;
+
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50rem;
+    color: #ffffff;
+    margin: 6rem ;
+    margin-right: 16rem;
+
+   
+}
+
+.text h1{
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    font-weight: 600;
+    font-family: 'Poppins' sans-serif;
+}
+
+.text p{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    font-family: 'Open Sans' sans-serif;
+
+}
+
+.btn {
+    font-family: 'poppins', sans-serif;
+    font-size: 2rem;
+    display: flex;
+    font-weight:400;
+    margin-top: 2rem;
+    margin-right: 25rem;
+    padding: 1rem 5rem;
+    border-radius: 5rem ;
+    transition: 0.4s ease-in-out;
+    border: none;
+    box-shadow:  0rem 0.6rem 2rem  rgba(0, 0, 0, 0.5);
+}
+
+ .btn:hover{
+   background: var(--Soft-Magenta);
+   cursor: pointer;
+}
+.social{
+    display: flex;
+    position: absolute;
+     margin-top: 60rem;
+    margin-left: 105rem;
+}
+
+.social a {
+    margin-right: 10rem;
+    font-size: 4rem;
+    color: #ffffff
+
+}
+.social a:hover{
+    color: var(--Soft-Magenta);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.attribution{
+    position: absolute;
+    bottom: 1rem;
+    
+}
+
+
+
+
+
+
+
